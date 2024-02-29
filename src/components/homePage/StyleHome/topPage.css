@@ -1,0 +1,48 @@
+.number {
+    width: 237px;
+    height: 68px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 67px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.text {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.description {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.box-container {
+    margin-left: 10px;
+    font-family: Playfair Display;
+}
+
+@media (max-width: 768px) {
+    /* Number */
+    .number {
+        width: 100%;
+        font-size: 40px;
+        line-height: 55px;
+        text-align: center;
+    }
+    /* Text */
+    .text {
+        font-size: 16px;
+        text-align: center;
+    }
+    /* Description */
+    .description {
+        font-size: 12px;
+        text-align: center;
+    }
+}

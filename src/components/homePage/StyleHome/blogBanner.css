@@ -1,0 +1,81 @@
+.container {
+    width: 100vw;
+    background-color: #F3FDF7;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.firstDiv {
+    flex: 1;
+    margin-right: 10px;
+    border: 1px solid red;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.firstDiv h2 {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: left;
+    font-family: Georgia, serif;
+    margin-bottom: 15px;
+}
+
+.firstDiv p {
+    text-align: left;
+}
+
+.seeMoreButton {
+    background-color: Blue;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.seeMoreButton a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.secondDiv {
+    flex: 1;
+    margin-left: 10px;
+    display: flex;
+}
+
+.nestedDiv1 {
+    flex: 1;
+    margin-right: 10px;
+    border: 1px solid green;
+    font-family: Georgia, serif;
+}
+
+.nestedDiv1 img {
+    width: 100%;
+    height: auto;
+}
+
+.nestedDiv2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.nestedDiv2>div {
+    flex: 1;
+    border: 1px solid blue;
+}
+
+.nestedDiv2>div img {
+    width: 100%;
+    height: auto;
+}

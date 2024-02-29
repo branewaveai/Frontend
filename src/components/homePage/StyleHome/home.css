@@ -1,0 +1,161 @@
+/* home.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    /* background-color: #a8b8c8; */
+}
+
+
+/* .background {
+    position: absolute;
+    margin-top: 140px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    width: 90%;
+    height: 100%;
+    z-index: -1;
+    
+    background-size: cover;
+    background-position: center;
+} */
+
+.background {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 140px);
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+}
+
+.background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 253, 0.51);
+    /* Adjust opacity as needed */
+}
+
+.container {
+    margin-top: 100px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align items to the start (left) */
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* searchBar.css */
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.search-input {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-button {
+    height: 40px;
+    /* Match input height */
+    padding: 0 16px;
+    /* Adjust padding as needed */
+    background-color: #367bf5;
+    /* Button background color */
+    color: white;
+    /* Button text color */
+    border: none;
+    border-radius: 5px;
+    /* Add border radius */
+    cursor: pointer;
+    font-size: 16px;
+    /* Adjust font size as needed */
+    margin-left: 8px;
+    /* Adjust margin as needed */
+}
+
+.search-button:hover {
+    background-color: #2459bc;
+}
+
+.green-line {
+    width: 20px;
+    height: 2px;
+    background-color: lightgreen;
+    margin: 0 10px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #0a0a0a;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.additional-element {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d1ecf1;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* Additional styles for Typography component */
+
+.Typography {
+    font-family: "Roboto", sans-serif;
+    /* You can replace this with the desired font */
+    font-size: 24px;
+    color: #333;
+    /* Set color to a dark shade */
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        /* Center the container on larger screens */
+        height: auto;
+    }
+}

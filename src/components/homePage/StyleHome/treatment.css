@@ -1,0 +1,52 @@
+/* TreatmentComponent.css */
+
+.treatment-container {
+    text-align: center;
+}
+
+.treatment-heading {
+    /* Adjust as needed */
+}
+
+.horizontal-line {
+    width: 50%;
+    margin: auto;
+}
+
+.treatment-details {
+    margin-top: 30px;
+    /* Adjust as needed */
+}
+
+.treatment-details-heading {
+    margin-bottom: 20px;
+}
+
+.treatment-context {
+    margin-bottom: 20px;
+}
+
+.treatment-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* width: 25%; */
+    /* Adjust the width as needed */
+    justify-content: center;
+}
+
+.treatment-item {
+    padding: 10px 20px;
+    width: 20%;
+    background-color: #fffdfd;
+}
+
+.view-all-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #367bf5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

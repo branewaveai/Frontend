@@ -1,0 +1,40 @@
+
+.treatment-card {
+  border-radius: 5px;
+  border: 2px solid #e5e5e5;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  max-width: 500px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.treatment-card-image {
+  width: 150px;
+  height: fit-content;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  border: 1px solid #e5e5e5;
+}
+
+.treatment-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.treatment-card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-left: 20px;
+}

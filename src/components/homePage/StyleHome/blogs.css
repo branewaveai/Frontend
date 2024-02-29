@@ -1,0 +1,20 @@
+.custom-box {
+    width: 80%;
+    margin: 0 auto;
+    /* Center the box horizontally */
+}
+
+.container {
+    margin-top: 20px;
+    width: 100%;
+    /* Set parent container width to 100% */
+    display: flex;
+    justify-content: center;
+    /* Center the content horizontally */
+}
+
+.grid-elements {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,50 @@
+.hospi-list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    padding: 20px;
+}
+
+.hospi-card {
+    border-radius: 5px;
+    border: 2px solid #e5e5e5;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: white;
+    margin-right: 20px;
+    max-width: 200px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.hospi-card-image {
+    width: 100%;
+    height: fit-content;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+}
+
+.hospi-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.containeer-list {
+    display: flex;
+    /* overflow-x: auto; */
+    padding: 0px;
+}
+
+.hospi-card-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+}
